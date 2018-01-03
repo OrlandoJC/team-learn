@@ -1,0 +1,54 @@
+/* 
+    CSS INCIO
+*/
+
+.encabezado {
+    width: 100%;
+    background-color: rgb(98, 170, 238);
+    padding: 20px;
+    color: white;
+}
+
+.secciones {
+    width: 100%;
+    padding: 20px;
+    margin-top: 80px;
+}
+
+.secciones__tarjeta {
+    width: 80%;
+    height: 150px;
+    margin: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.title {
+    margin-left: 10px;
+    color: white
+}
+
+.seccion__tarjeta>i {
+    font-size: 40px;
+}
+
+.icono_tarjeta {
+    font-size: 4em;
+    color: white;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.blue {
+    background-color: rgb(54, 129, 199)
+}
+
+.green {
+    background-color: green
+}

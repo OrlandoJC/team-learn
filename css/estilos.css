@@ -1,0 +1,36 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* header */
+
+header {
+    margin: 20px;
+}
+
+.container_navegacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__navegacion {
+    margin-left: auto;
+    font-size: 1.1em;
+    color: gray
+}
+
+.header__navegacion>ul>a {
+    margin-left: 30px;
+    color: gray;
+    text-decoration: none;
+}
+
+.header__logo {
+    font-size: 30px;
+}
+
+.header__logo:hover {
+    cursor: pointer;
+}
