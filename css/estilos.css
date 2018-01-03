@@ -6,7 +6,15 @@
 /* header */
 
 header {
-    margin: 20px;
+    margin: 10px;
+}
+
+.encabezado {
+    width: 100%;
+    background-color: #29303b!important;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
 }
 
 .container_navegacion {
