@@ -27,7 +27,7 @@
             </div>
             <nav class="header__navegacion">
                 <ul>
-                    <a href="#">Inicio</a>
+                    <a href="index.html">Inicio</a>
                     <a href="perfil_publico.html">Perfil</a>
                     <a href="">Mensaje</a>
                     <a href="registro.html">Registrarse</a>
@@ -48,39 +48,59 @@
                     <div class="icon">
                         <i class="fa fa-book icono_tarjeta" aria-hidden="true"></i>
                     </div>
-    <div class="formulario animated fadeInUpBig">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 col-md-offset-3">
+<div class="centro">
+  <div class="">
+  <div class="formulario animated fadeInUpBig">
       <form class="" action="index.html" method="post">
       <div class="form-row">
     <div class="form-group col-md-6">
       <label for="nombre">Nombre</label>
-      <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+      <input type="text" class="form-control" id="nombre" placeholder="Nombre" required>
     </div>
     <div class="form-group col-md-6">
       <label for="apellidos">Apellidos</label>
-      <input type="text" class="form-control" id="apellidos" placeholder="Apellidos">
+      <input type="text" class="form-control" id="apellidos" placeholder="Apellidos" required>
     </div>
     <div class="form-group col-md-6">
       <label for="Username">Nombre De Usuario</label>
-      <input type="text" class="form-control" id="Username" placeholder="Usuario">
+      <input type="text" class="form-control" id="Username" placeholder="Usuario" required>
     </div>
       <div class="form-group col-md-6">
         <label for="inputEmail4">Email</label>
-        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+        <input type="email" class="form-control" id="inputEmail4" placeholder="Email" required>
       </div>
       <div class="form-group col-md-6">
         <label for="Email4">Confirmar Email</label>
-        <input type="email" class="form-control" id="Email4" placeholder="Confirmar Email">
+        <input type="email" class="form-control" id="Email4" placeholder="Confirmar Email" required>
       </div>
       <div class="form-group col-md-6">
         <label for="Password4">Password</label>
-        <input type="password" class="form-control" id="Password4" placeholder="Password">
+        <input type="password" class="form-control" id="Password4" placeholder="Password" required>
       </div>
-      <div class="form-group col-md-14">
+      <div class="form-group col-md-6">
         <label for="inputPassword4">Confirmar Password</label>
-        <input type="password" class="form-control" id="inputPassword4" placeholder="Confirmar Password">
+        <input type="password" class="form-control" id="inputPassword4" placeholder="Confirmar Password" required>
       </div>
+      <div class="form-group col-md-6">
+    <label for="prefeerencia">Lenguaje</label>
+    <select class="form-control" id="prefeerencia" required>
+      <option>Python</option>
+      <option>Java</option>
+      <option>JavaScript</option>
+      <option>Php</option>
+      <option>Golang</option>
+      <option>Assembly</option>
+      <option>Ruby</option>
+      <option>Perl</option>
+      <option>R</option>
+      <option>Otro</option>
+    </select>
+  </div>
 
-        <input type="checkbox" required><label id="terminos">Estoy de acuerdo con los <a href="#"> terminos y condiciones</a> de uso</label>
+        <input type="checkbox" required><label id="terminos">Estoy de acuerdo con los <a href="#"> terminos y condiciones</a> de uso</label><br>
 
       <input type="submit" class="btn btn-primary" value="Registrarse">
       <p>Tienes una cuenta? <a href="login.html">Inicia Aqui</a> </p>
@@ -88,7 +108,11 @@
 
       </form>
     </div>
-
+  </div>
+</div>
+</div>
+</div>
+</div>
 </body>
 
 

@@ -9,3 +9,13 @@ height: auto;
 padding-top: 35px;
 text-align: center;
 }
+.login{
+  width: auto;
+  height: auto;
+  padding-top: 35px;
+  text-align: center;
+}
+.centro{
+margin: 0 auto;
+float: right;
+}
