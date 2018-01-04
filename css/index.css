@@ -1,0 +1,187 @@
+.banner {
+    width: 100%;
+    height: 100%;
+    color: white;
+    padding: 60px 0;
+    background: #5C258D;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4389A2, #5C258D);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4389A2, #5C258D);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-size: 1.3em;
+}
+
+.banner p {
+    line-height: 1.8;
+    font-family: 'Colfax Light';
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.banner h1 {
+    font-family: 'Colfax Medium';
+    font-weight: normal
+}
+
+button {
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 10px 20px;
+    background-color: transparent
+}
+
+.header__logo img {
+    height: 50px;
+}
+
+.header__logo a {
+    font-size: 20px;
+    text-decoration: none;
+    color: gray;
+}
+
+.quien {
+    text-align: center;
+    padding: 50px 0px;
+    font-weight: bold
+}
+
+
+/* titulo */
+
+.quien .quien_principal h2 {
+    font-family: 'Colfax Medium';
+    font-weight: normal;
+    color: #6a339b;
+}
+
+.quien h2 {
+    font-family: 'Colfax Medium';
+    margin: 20px 0;
+    color: gray;
+}
+
+.quien p {
+    line-height: 2.5;
+    color: gray
+}
+
+.quien .quien_principal p {
+    font-weight: normal;
+    color: gray;
+    color: gray;
+}
+
+.recursos {
+    width: 100%;
+    background-color: #f6f9ff
+}
+
+
+/* CARDS */
+
+.recursos {
+    padding: 50px 0px;
+}
+
+.card {
+    width: 80%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://fthmb.tqn.com/bRbUZxQrokG4J7U72k-yzKgytWw=/768x0/filters:no_upscale()/174457231-56a259d95f9b58b7d0c9385a.jpg');
+    overflow: hidden;
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center;
+    -webkit-box-shadow: -1px 6px 18px 1px rgba(202, 221, 255, 1);
+    -moz-box-shadow: -1px 6px 18px 1px rgba(202, 221, 255, 1);
+    box-shadow: -1px 6px 18px 1px rgba(202, 221, 255, 1);
+    margin: 20px auto
+}
+
+.card p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.card_body {
+    width: 100%;
+    height: 60%;
+    background-color: white;
+    z-index: 2;
+    padding: 0px 20px;
+    padding-bottom: 20px;
+}
+
+.card_logo {
+    width: 100%;
+    height: 40%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.card_header {
+    background-color: white;
+    padding: 5px 20px;
+}
+
+.card_logo img {
+    width: 50%;
+    z-index: 22;
+}
+
+.quote {
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://fthmb.tqn.com/bRbUZxQrokG4J7U72k-yzKgytWw=/768x0/filters:no_upscale()/174457231-56a259d95f9b58b7d0c9385a.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px 0px;
+}
+
+.quote h1 {
+    color: white
+}
+
+.quote_probar {}
+
+.footer {
+    padding: 50px 0px 0px 0px;
+}
+
+.footer li {
+    list-style: none;
+    line-height: 1.6;
+}
+
+.secondary_footer {
+    padding: 20px 0px;
+}
+
+
+/* color y fuentes */
+
+.texto_principal {
+    font-family: 'Colfax Medium';
+    font-weight: normal;
+    color: #8c64b0;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.white {
+    color: white;
+}
+
+.footer_titulo {
+    color: #8c64b0;
+    font-weight: bold
+}

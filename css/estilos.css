@@ -1,5 +1,37 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Colfax light', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-feature-settings: "liga", "kern";
+}
+
+@font-face {
+    font-family: 'Colfax Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Colfax Black'), url('fonts/colfax/Colfax-Black.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Colfax Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Colfax Medium'), url('fonts/colfax/Colfax-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Colfax Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Colfax Light'), url('fonts/colfax/Colfax-Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Colfax Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Colfax Regular'), url('Colfax-Regular.woff') format('woff');
 }
 
 
@@ -42,3 +74,50 @@ header {
 .header__logo:hover {
     cursor: pointer;
 }
+
+.transparent {
+    background-color: transparent;
+    color: white;
+}
+
+
+/*
+-------------------------
+     Media queries   
+______________________
+*/
+
+
+/* media queries pendientes */
+
+
+/* Smartphones (portrait) ----------- */
+
+@media only screen and (max-width: 420px) {
+    /* Styles */
+    .banner {
+        text-align: center;
+    }
+    .banner img {
+        display: none;
+    }
+}
+
+
+/* iPads (portrait) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    /* Styles */
+}
+
+
+/* Desktops and laptops ----------- */
+
+@media only screen and (min-width: 1224px) {
+    /* Styles */
+}
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width: 1200px) {}
