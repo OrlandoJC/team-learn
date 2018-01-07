@@ -1,0 +1,32 @@
+header {
+    margin: 10px;
+}
+
+h3{
+    margin-left: 10%;
+    font-weight: bold;
+}
+.form input{
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: 2px solid #11ddf3;
+    
+}
+
+.perfil{
+    color: #11ddf3;
+    left: 5%;
+}
+
+.boton{
+    background: #11ddf3;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 700px){
+    .perfil{
+        margin-left: 20%;
+    }
+}
